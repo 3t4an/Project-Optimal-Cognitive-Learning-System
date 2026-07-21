@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"e2e7ac8641cfb9bc","x":-17,"y":-80,"width":400,"height":400,"type":"file","file":"10 Growing Notes/Project OCLS/1.2 - Cognitive Load Theory.md"},
+		{"id":"35a7dc098f0e4eea","x":-760,"y":200,"width":400,"height":400,"type":"file","file":"10 Growing Notes/Project OCLS/1.1 - Information Processing Theory.canvas"},
+		{"id":"c5f76de341ff2ae7","x":640,"y":320,"width":384,"height":151,"type":"text","text":"# Oher sub-theories based that zoom-in on the IPT backbone"},
+		{"id":"493f78fe8a0e39ac","x":-17,"y":471,"width":400,"height":400,"type":"file","file":"10 Growing Notes/Project OCLS/1.3 - Schema Theory.md"},
+		{"id":"c3db9cc68e75da09","x":-782,"y":-40,"width":445,"height":50,"type":"text","text":"# Cognitive Learning Theory"}
+	],
+	"edges":[
+		{"id":"aa2a753b5cb82ec7","fromNode":"c3db9cc68e75da09","fromSide":"bottom","toNode":"35a7dc098f0e4eea","toSide":"top"},
+		{"id":"899de33b6de3b163","fromNode":"35a7dc098f0e4eea","fromSide":"right","toNode":"e2e7ac8641cfb9bc","toSide":"left"},
+		{"id":"8bb29843e08ec50d","fromNode":"35a7dc098f0e4eea","fromSide":"right","toNode":"493f78fe8a0e39ac","toSide":"left"},
+		{"id":"8c6f52b5adb2f2e5","fromNode":"35a7dc098f0e4eea","fromSide":"right","toNode":"c5f76de341ff2ae7","toSide":"left"}
+	]
+}
