@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"33f63836eb5fd240","type":"group","x":-700,"y":-380,"width":1355,"height":700,"label":"Flow with Learning Processes"},
+		{"id":"200b2e415a1940d2","type":"group","x":740,"y":-167,"width":759,"height":487,"label":"Principles for Efficiency"},
+		{"id":"1c69afdffb7ddabf","type":"text","text":"# Attention Gateway","x":-680,"y":-360,"width":320,"height":50},
+		{"id":"e638e33992a6dd09","type":"text","text":"# Orientation","x":-645,"y":-147,"width":250,"height":60},
+		{"id":"51bad3b33b0b04c8","type":"text","text":"# Encoding Gateway","x":-260,"y":-360,"width":320,"height":50},
+		{"id":"622c9ab0ae9d1b61","type":"text","text":"# Encoding","x":-225,"y":-147,"width":250,"height":60},
+		{"id":"8d216c2e6e2a2d04","type":"text","text":"# Storage via Retrieval Gateway","x":115,"y":-360,"width":520,"height":50},
+		{"id":"97f8da04c3e096a9","type":"text","text":"# AER-OS","x":-10,"y":-580,"width":250,"height":60},
+		{"id":"4d271b0c0fb16128","type":"text","text":"# Retrieval","x":250,"y":-147,"width":250,"height":60},
+		{"id":"d74de9bfcc88cdb1","type":"text","text":"# Organization","x":783,"y":-147,"width":246,"height":60},
+		{"id":"71549cd869837995","type":"text","text":"# Struggle","x":1119,"y":-147,"width":175,"height":60},
+		{"id":"1c7800c6e0a921df","type":"text","text":"### Retrieval of memory\n- Perform after each section or chapter\n- From memory, rebuild schemata as best as possible. Then refine\n- Strengthens memory recall and can rebuild schemata and more organized format\n- Revise after with previous schemata.","x":115,"y":-20,"width":441,"height":320},
+		{"id":"f3b4dbab78e96ed1","type":"text","text":"### Create Schemata\n- When going over content, write down key words and concepts.\n- Create schemata with connections and relationships.\n- Explain in own words with connections to prior knowledge.\n- Schemata DOESN'T have to be correct or organized.\n- JUST JOT DOWN AND CONNECT.","x":-320,"y":-20,"width":380,"height":320},
+		{"id":"6553631e0998f6fa","type":"text","text":"### Take unnecessary load of the mind\n- Minimize environmental distractions.\n- Create a clear goal.\n- Get a lay of the land before diving into new content.","x":-645,"y":-15,"width":268,"height":315},
+		{"id":"2ff934e7102b8105","type":"text","text":"### Cognitive Overload Theory and Time Management\n- Work in time chunks of 1 hour with a 10 min break\n- Prevent Cognitive Overload","x":783,"y":-20,"width":293,"height":320},
+		{"id":"4fc2e8b4e5463293","type":"text","text":"### Keep a constant mental struggle\n- Constantly ask question when going through new content\n- Don't passively read.\n- Build schemata in own though process.\n- Correct work and compare against content.","x":1119,"y":-17,"width":360,"height":317}
+	],
+	"edges":[
+		{"id":"9bc4be2dd5cef471","fromNode":"1c69afdffb7ddabf","fromSide":"bottom","toNode":"e638e33992a6dd09","toSide":"top"},
+		{"id":"d61652ebe631618d","fromNode":"51bad3b33b0b04c8","fromSide":"bottom","toNode":"622c9ab0ae9d1b61","toSide":"top"},
+		{"id":"35c81dcefa140580","fromNode":"8d216c2e6e2a2d04","fromSide":"bottom","toNode":"4d271b0c0fb16128","toSide":"top"},
+		{"id":"7491a23364fcfe6d","fromNode":"e638e33992a6dd09","fromSide":"bottom","toNode":"6553631e0998f6fa","toSide":"top"},
+		{"id":"c5ead6e6eb9c0d1e","fromNode":"d74de9bfcc88cdb1","fromSide":"bottom","toNode":"2ff934e7102b8105","toSide":"top"},
+		{"id":"e98cbc61269014be","fromNode":"622c9ab0ae9d1b61","fromSide":"bottom","toNode":"f3b4dbab78e96ed1","toSide":"top"},
+		{"id":"2207a86b1b12746a","fromNode":"4d271b0c0fb16128","fromSide":"bottom","toNode":"1c7800c6e0a921df","toSide":"top"},
+		{"id":"2f91ba50915687cf","fromNode":"71549cd869837995","fromSide":"bottom","toNode":"4fc2e8b4e5463293","toSide":"top"},
+		{"id":"d8382af86577ecfd","fromNode":"4d271b0c0fb16128","fromSide":"left","toNode":"622c9ab0ae9d1b61","toSide":"right","fromEnd":"arrow","label":"Feedback\nLoop"}
+	]
+}
